@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css">
+	<link rel="stylesheet" href="chisiamo.css">
+	<link rel="shortcut icon" type="image/png" href="logo.png">
+<link href='https://fonts.googleapis.com/css?family=Bungee Hairline' rel='stylesheet'>
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+	<header class="header clearfix">
+		<a href="menu.html" class="header__logo"> φ</a>
+		<a href="" class="header__icon-bar">
+			<span></span>
+			<span></span>
+			<span></span>
+		</a>
+		<ul class="header__menu animate">
+			<li class="header__menu__item"><a href="menu.html">HOME</a></li>
+			<li class="header__menu__item"><a href="#">CHI SIAMO</a></li>
+			<li class="header__menu__item"><a href="progetto.html">IL PROGETTO</a></li>
+			<li class="header__menu__item"><a href="contatti.html">CONTATTI</a></li>
+		</ul>
+	</header>
+
+	<div class="logo_centrale">
+			</div>
+	<section class="cover">
+		<div class="cover__filter"></div>
+		<div class="cover__caption">
+			<div class="cover__caption__copy">
+				<h1> CHI SIAMO </h1>
+			<p> <h2> Andrea Cazzaniga </h2> </p>
+			<p> Ciao, sono Andrea! Studio Medicina all università San Raffaele di Milano e sono un appassionato di scacchi, serie tv e musica. Ho scelto di abbracciare questo progetto perché credo  possa stimolare la creatività nelle generazioni a venire e creare così un movimento e concetto di arte totalmente nuovo: un'arte per tutti. </p>
+			<p> <h2> Michela Alessandrello </h2> </p>
+			<p> Ciao sono Michela e sono una studentessa di design del prodotto industriale. L’interesse per le
+			culture Il design e la pittura sono ciò che connota la mia personalità e proprio all luce di ciò
+			un’altra delle mie passioni è sicuramente il viaggiare che accumuna tutte le precedenti.
+			L’idea del progetto mi è venuta in mente ragionando su come potessi vendere o sponsorizzare i
+			miei quadri. Facendo ricerche ho scoperto che le opzioni per poter realizzare quello che avevo in
+			mente fossero poche e soprattutto care, quindi ho cercato una soluzione che venisse incontro alle
+			esigenze economiche degli studenti come me, confrontandomi con dei miei cari amici. Da lì
+			cominciò il progetto di phi. </p>
+			<p> <h2> Nicole </h2> </p>
+			Ciao sono Nicole e frequento il corso di studi di servizio sociale.uno dei miei interessi principali è
+			proprio quello di aiutare le persona e studiare tutto ciò che ne concerne da un punto di vista
+			umanistico.
+			Sono entrata a far parte del progetto perché lo reputo interessante e valido, soprattutto per il fatto
+			che rappresenti una possibilità che va in contro alle esigenze economiche e sociali dei giovani
+			d’oggi, così da poter realizzare e coltivare le proprie passioni.</p>
+			<p> <h2> Federica Berra </h2> </p>
+			<p> Sono Federica, una fotografa e studentessa di Design della Comunicazione
+				al Politecnico di Milano. La mia passione è la comunicazione multimediale in tutti i
+				suoi aspetti, e metterla al servizio di Phi è stato sicuramente uno dei modi più
+				interessanti di applicarla. Ho scelto di aderire al progetto perchè a mio parere
+				i social network non valorizzano correttamente i giovani artisti, è perciò stato necessario
+				trovare una piattaforma più adeguata per valorizzarli. </p>
+
+			</div>
+		</div>
+	</section>
+
+<footer class="footer">
+	<p>Copyright - 2018 Associazione Culturale PHI</p>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script>
+	 $(document).ready(function(){
+
+			$(".header__icon-bar").click(function(e){
+
+				$(".header__menu").toggleClass('is-open');
+				e.preventDefault();
+
+			});
+	 });
+</script>
+
+
+</body>
+</html>
