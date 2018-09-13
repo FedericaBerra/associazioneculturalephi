@@ -1,0 +1,110 @@
+*
+{
+  margin:0;
+  padding: 0;
+}
+
+.main-nav{
+  float: right;
+  list-style: none;
+  margin-top: 30px;
+}
+
+.main-nav li
+{
+  display: inline-block;
+}
+
+.main-nav li a
+{
+  color: white;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
+
+main-nav li.active a
+{
+  border: 1px solid white;
+}
+
+.main-nav li a:hover
+{
+  border: 1px solid white;
+}
+
+.logo img {
+  width: 300px;
+  height: auto;
+  float: left;
+  opacity: 0;
+  position: absolute;
+}
+
+body
+{
+  font-family: monospace;
+  background-color: black;
+}
+
+.row
+{
+  max-width: 1200px;
+  margin: auto;
+}
+
+.relative{
+  position: relative;
+  background-color: #fff;
+}
+
+#container1{
+  position: absolute;
+  top:80px;
+  width: 100%;
+  height: 65px;
+  background-color: #3b3b3b;
+  color: #cfcfcf;
+  font-family: Roboto;
+  text-align: center;
+  line-height: 2;
+}
+
+#container2{
+  position: absolute;
+  bottom: 10%;
+  width: 80%;
+  left: 10%;
+}
+
+#citazione{
+  text-decoration: italic;
+
+}
+
+#descrizione{
+  text-align: center;
+  line-height: 2;
+}
+
+
+
+h1{
+    letter-spacing: 1px;
+    color: #cfcfcf;
+  font-family: 'Playfair Display SC', serif;
+    text-align: center;
+}
+
+h2{
+font-family: "HelveticaNeueW02-75Bold", Helvetica, Arial, sans-serif;
+font-size: 15px;
+color: grey;
+  text-align: center;
+}
+
+p{
+  color: #cfcfcf;
+  font-family: "HelveticaNeueW02-75Bold", Helvetica, Arial, sans-serif;
+}
