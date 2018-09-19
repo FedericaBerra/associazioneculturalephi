@@ -4,6 +4,8 @@ body {
   text-align: center;
   background-color: black;
   background-size: cover;
+  font-family: 'Nanum Gothic', sans-serif;
+
 }
 .contact-title{
   margin-top: 100px;

@@ -28,11 +28,11 @@
   }
   20.01%{
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5)),
-    url(sfondo2.jpg);
+    url(erika.jpg);
   }
   40%{
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5)),
-    url(sfondo2.jpg);
+    url(erika.jpg);
   }
   40,01%{
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5)),
@@ -91,9 +91,11 @@ main-nav li.active a
 }
 
 .logo img {
-  width: 300px;
+  width: 230px;
   height: auto;
   float: left;
+  left: 5%;
+  opacity: 0.8;
 }
 
 body
@@ -121,7 +123,7 @@ h1{
   text-transform: uppercase;
   text-align: center;
   margin-top: 275px;
-font-family: 'Playfair Display SC', serif;
+font-family: 'Nanum Gothic', sans-serif;
 }
 .button {
   margin-top: 30px;
@@ -140,11 +142,11 @@ font-family: 'Playfair Display SC', serif;
 
 .btn-one{
   background-color:#83716c;
-  font-family: "HelveticaNeueW02-75Bold", Helvetica, Arial, sans-serif;
+font-family: 'Karla', sans-serif;
 }
 
 .btn-two{
-  font-family: "HelveticaNeueW02-75Bold", Helvetica, Arial, sans-serif;
+font-family: 'Karla', sans-serif;
 }
 
 .btn-two:hover{

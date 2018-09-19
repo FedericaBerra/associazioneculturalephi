@@ -98,7 +98,6 @@ body
   left: 4%;
   height: 100%;
   width: 20%;
-  background-color: grey;
 }
 #box1 img{
   position: absolute;
@@ -196,14 +195,14 @@ body
 }
 
 #box8{
-  position: absolute;
+  position: relative;
   left: 76%;
   height: 100%;
   width: 20%;
   background-color: grey;
 }
 #box8 img{
-  position: absolute;
+  position: relative;
   height: 100%;
   width: 100%;
   overflow: hidden;
@@ -242,7 +241,7 @@ body
 
 h1 {
 color: white;
-font-family: 'Playfair Display SC', serif;
+font-family: 'Nanum Gothic', sans-serif;
 font-size: 20px;
 }
 h2 {

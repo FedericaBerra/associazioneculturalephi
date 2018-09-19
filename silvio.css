@@ -37,9 +37,10 @@ main-nav li.active a
 .logo img {
   width: 300px;
   height: auto;
-  float: left;
-  opacity: 0;
+  top: 45%;
   position: absolute;
+  left: 40%;
+  opacity: 0.1;
 }
 
 body
@@ -59,31 +60,33 @@ body
   background-color: #fff;
 }
 
-#container1{
+#griglia{
   position: absolute;
   top:80px;
   width: 100%;
-  height: 65px;
+  left: 0%;
+  height: 700px;
+}
+
+
+#container1{
+  position: absolute;
+  width: 100%;
+  height: 9%;
   background-color: #3b3b3b;
   color: #cfcfcf;
-  font-family: Roboto;
   text-align: center;
   line-height: 2;
 }
 
+
+
 #container2{
   position: absolute;
-  bottom: 10%;
   width: 80%;
   left: 10%;
-}
-
-#citazione{
-  text-decoration: italic;
-
-}
-
-#descrizione{
+  top: 30%;
+  bottom: 4%;
   text-align: center;
   line-height: 2;
 }
@@ -92,9 +95,8 @@ body
 
 h1{
     letter-spacing: 1px;
-    color: #cfcfcf;
-  font-family: 'Playfair Display SC', serif;
     text-align: center;
+    font-family: 'Noticia Text', serif;
 }
 
 h2{
@@ -104,7 +106,14 @@ color: grey;
   text-align: center;
 }
 
+h3{
+  color: #a1a1a1;
+  font-family: 'Noticia Text', serif;
+  font-size: 15px;
+}
+
 p{
   color: #cfcfcf;
-  font-family: "HelveticaNeueW02-75Bold", Helvetica, Arial, sans-serif;
+font-family: 'Noticia Text', serif;
+  color: #a1a1a1;
 }
